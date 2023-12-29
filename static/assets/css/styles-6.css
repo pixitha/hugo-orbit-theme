@@ -31,6 +31,7 @@ a {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 a:hover {
   text-decoration: underline;
@@ -285,14 +286,12 @@ p {
 @media (min-width: 992px) {
   .skillset .level-title {
     display: inline-block;
-    float: left;
     width: 30%;
     margin-bottom: 0;
   }
   .skillset .level-bar {
     display: inline-block;
     width: 70%;
-    float: left;
     position: relative;
     top: 1px;
   }
